@@ -1,0 +1,27 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main  # Adjust this if your development branch has a different name
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # Match this with your local development environment
+        cache: 'npm'  # This line enables caching of npm modules
+
+    - run: npm install
+    - run: npm run build
+
+    # Optional: Add a step for setting up a custom domain
+    - name: Setup CNAME
+      run: echo "abhishekingle.com" > build/CNAME
+      if: github.ref == 'refs/heads/main'  # Only run this step for the main branch
+
+    - uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages  # The branch the action should deploy to.
+        folder: build     # The folder the action should deploy.
