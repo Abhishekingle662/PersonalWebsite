@@ -6,7 +6,7 @@ import P5Sketch from './P5Sketch'; // Ensure this path is correct
 function WelcomeHero() {
   return (
     <div>
-      
+      <P5Sketch />
       <section id="welcome-hero" className="welcome-hero">
         <div className="container">
           <div className="row">

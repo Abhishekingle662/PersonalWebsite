@@ -46,8 +46,8 @@ function About() {
   };
 
   // Ease effect based on distance between mouse and word center
-  const easeEffect = (mx, my, wx, wy) => {
-    let distance = Math.dist(mx, my, wx, wy);
+  const easeEffect = (x1, y1, x2, y2) => {
+    let distance = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
     if (distance < popEffectDistance) {
       return 1 - (distance / popEffectDistance);
     }

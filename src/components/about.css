@@ -10,14 +10,10 @@
     max-width: 800px; /* Optimal reading width */
     text-align: justify;
     margin-bottom: 20px;
+    
   }
   
-  .bio {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    color: #333; /* Dark grey text for readability */
-    line-height: 1.6;
-  }
+  
   
   #photo {
     width: 150px;
