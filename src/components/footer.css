@@ -1,0 +1,45 @@
+.footer-copyright {
+  background-color: transparent;
+  color: #5C5552; /* Text color to match the rest of the site */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistent font family */
+}
+
+.container {
+  text-align: center; /* Center-align the content for a balanced look */
+  max-width: 1200px; /* Max width for the content */
+  margin: auto; /* Center the container */
+}
+
+.hm-footer-copyright p {
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 16px; /* Appropriate font size for footer text */
+}
+
+.hm-footer-copyright img {
+  height: 100px; /* Height for the image */
+  width: 100px; /* Width for the image */
+  border-radius: 50%; /* Circle shape for the image */
+  margin-top: 10px; /* Top margin for spacing above the image */
+}
+
+#scroll-Top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.return-to-top {
+  background-color: rgb(224, 151, 61); /* Button background color */
+  padding: 10px; /* Padding inside the button */
+  border-radius: 50%; /* Circle shape for the button */
+}
+
+.fa-angle-up {
+  color: #ffffff; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+#scroll-Top:hover .return-to-top {
+  background-color: rgb(119, 85, 45); /* Darker shade on hover for interaction feedback */
+}

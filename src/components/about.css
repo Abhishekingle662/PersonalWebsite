@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.single-about-txt {
+  max-width: 800px; /* Optimal reading width */
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 10px;
+  padding: 0px 5px 0px 0px;
+}
+
+.aboutText {
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+.text-container {
+  flex: 1; /* Fill remaining space */
+}
+
+#photo {
+  width: 200px; /* Increase the width of the image */
+  height: 200px; /* Increase the height of the image */
+  position: relative;
+  background-color: #ddd; /* Placeholder for photo */
+  border-radius: 50%; /* Circular frame */
+  background-image: url('../components/photo.jpg'); /* Path to Abhishek's photo */
+  background-size: cover;
+  background-position: center;
+}

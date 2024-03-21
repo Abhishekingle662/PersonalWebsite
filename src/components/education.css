@@ -1,0 +1,53 @@
+.education {
+    background-color: transparent;
+    color: #5C5552; /* Consistent text color */
+  }
+  
+  .section-heading h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5C5552; /* Consistent heading color */
+    margin-bottom: 40px; /* Spacing below the section heading */
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .container {
+    max-width: 1200px; /* Max width for content */
+    margin: auto; 
+  border-radius: 25%;
+  }
+  
+  .education-horizontal-timeline .single-horizontal-timeline {
+    background-color: #ffffff; /* White background for each timeline entry */
+    padding: 20px; /* Padding around content */
+    margin-bottom: 20px; /* Space between timeline entries */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 25px;
+  }
+  .experience-time h2, .experience-time h3 {
+    margin: 0; /* Remove default margins */
+    color: #5C5552; /* Consistent text color */
+  }
+  
+  .timeline-horizontal-border {
+    display: flex;
+    align-items: center;
+    margin: 15px 0; /* Space above and below the timeline bar */
+  }
+  
+  .timeline-horizontal-border .fa-circle {
+    color: #5C5552; /* Consistent icon color */
+    margin-right: 10px; /* Space between the circle icon and the bar */
+  }
+  
+  .single-timeline-horizontal {
+    height: 2px; /* Thickness of the horizontal bar */
+    background-color: #5C5552; /* Consistent bar color */
+    flex-grow: 1; /* Ensure the bar expands to fill space */
+  }
+  
+  .timeline-content h4, .timeline-content h5 {
+    margin: 5px 0; /* Spacing for content within each timeline entry */
+    color: #5C5552; /* Consistent text color */
+  }
+  

@@ -1,0 +1,66 @@
+#contact {
+  background-color: transparent; /* Set background color to transparent */
+  color: #5C5552;
+}
+
+.section-heading h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5C5552;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+}
+
+.single-contact-box {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25%;
+}
+
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.contact-btn {
+  background-color:  rgb(224, 151, 61);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: rgb(119, 85, 45);
+}
+
+.hm-foot-icon ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hm-foot-icon li a {
+  color: #5C5552;
+  font-size: 20px;
+}
+
+.hm-foot-icon li a:hover {
+  color: #007bff;
+}
